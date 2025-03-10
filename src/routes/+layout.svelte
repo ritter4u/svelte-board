@@ -1,6 +1,8 @@
 <script lang="ts">
 	import '../app.css';
 	import GNB from '$lib/components/GNB.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+
 	let { children } = $props();
 </script>
 
@@ -10,3 +12,5 @@
 		<slot />
 	</main>
 </div>
+
+<Footer />
