@@ -9,7 +9,10 @@
 <div class="min-h-screen bg-gray-50">
 	<GNB />
 	<main>
-		<slot />
+  {@render children()}
+		<!-- {#if children}
+			{@html children}
+		{/if} -->
 	</main>
 </div>
 
