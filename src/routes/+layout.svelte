@@ -9,7 +9,7 @@
 <div class="min-h-screen bg-gray-50">
 	<GNB />
 	<main>
-  {@render children()}
+  {@render children()} 
 		<!-- {#if children}
 			{@html children}
 		{/if} -->
